@@ -19,10 +19,12 @@ nav {
     list-style: none;
     margin-top: 30px;
     height: 38px;
+    width: 100%
 }
 
 nav li {
-    display: inline-block;
+    display: block;
+    float: right;
 }
 
 nav a {
@@ -44,11 +46,20 @@ nav a:active {
     color: #C33764;
 }
 
-nav b {
+.title {
+    display: block;
     color: white;
-    text-decoration: none;
-    padding: 5px 20px;
+    float: left;
     font-family: "Roboto", sans-serif;
-    font-size: 15px;
-    transition: .3s background-color;
+    padding: 5px 20px;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
