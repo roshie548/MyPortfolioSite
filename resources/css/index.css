@@ -58,6 +58,52 @@ img {
     border-radius: 50%;
 }
 
+.banner-text {
+    background-color: black;
+    opacity: 0.7;
+    width: 75%;
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.banner-text h1 {
+    font-size: 40px;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+    color: white;
+    line-height: 0.0;
+}
+
+.banner-text h2 {
+    font-size: 20px;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+    color: white;
+    padding-top: 7px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+}
+
+.links i {
+    color: white;
+    font-size: 3em;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    opacity: 0.8;
+}
+
+.links i:hover {
+    color: #C33764;
+    transition: .3s color;
+}
+
 .center {
     display: block;
     margin-left: auto;
