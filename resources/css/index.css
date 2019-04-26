@@ -1,0 +1,27 @@
+header {
+    background-image: linear-gradient(#C33764, #1D2671);
+    height: 50%;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+    outline-style: dotted;
+    outline-color: aqua;
+}
+
+.main-nav li {
+    display: inline-block;
+}
+
+.main-nav a {
+    color: red;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
