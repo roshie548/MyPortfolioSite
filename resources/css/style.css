@@ -2,7 +2,8 @@ html, body {
     padding: 0;
     margin: 0;
     height: 100%;
-    background-image: linear-gradient(#C33764, #1D2671);
+    /* background-image: linear-gradient(#C33764, #1D2671); */
+    background-color: #78dbff;
 }
 
 header {
@@ -56,6 +57,7 @@ nav a:active {
 
 img {
     border-radius: 50%;
+    border: 8px solid #baedff;
 }
 
 .banner-text {
@@ -96,7 +98,6 @@ img {
     font-size: 3em;
     padding-top: 7px;
     padding-bottom: 7px;
-    opacity: 0.8;
 }
 
 .links i:hover {
