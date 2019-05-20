@@ -4,6 +4,8 @@ html, body {
     height: 100%;
     /* background-image: linear-gradient(#C33764, #1D2671); */
     background-color: #78dbff;
+    font-family: Helvetica, sans-serif;
+    text-decoration: none;
 }
 
 header {

@@ -4,24 +4,58 @@
     <meta charset="utf-8">
     <link href="resources/css/style.css" rel="stylesheet" type="text/css">
     <link href="resources/css/timeline.css" rel="stylesheet" type="text/css">
-    <title></title>
+    <!-- Load React. -->
+    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+    <!-- Load our React component. -->
+    <script src="resources/javascript/timeline.js"></script>
+    <title>projects</title>
   </head>
   <body>
-
+    <header>
+        <nav>
+            <li class="title"> ROSHAN KUMARASWAMY </li>
+            <li><a href=""> CONTACT ME </a></li>
+            <li><a href="projects.html"> PROJECTS </a></li>
+            <li><a href=""> ABOUT ME </a></li>
+            <li><a href="index.html"> HOME </a></li>
+        </nav>
+    </header>
     <div class="timeline-container">
       <div class="timeline-item">
         <div class="timeline-item-content">
-          <time>December 2018</time>
-          <p> Yo </p>
-          <a> Check it out on Google Play </a>
+          <span class="tag" style="background: orange"> GitHub </span>
+          <time>April 2019</time>
+          <p> Started building my website </p>
+          <a href="https://github.com/roshie548/MyPortfolioSite" target=_blank> Check it out on GitHub </a>
           <span class="circle"/>
         </div>
       </div>
       <div class="timeline-item">
         <div class="timeline-item-content">
+          <span class="tag" style="background: #03b454"> Google Play </span>
           <time>December 2018</time>
-          <p> Yo </p>
-          <a> Check it out on Google Play </a>
+          <p> Built PicSchedule Android App </p>
+          <a href="https://play.google.com/store/apps/details?id=com.roshan.android.picscheduler" target=_blank> Download from Google Play </a>
+          <span class="circle"/>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-item-content">
+          <span class="tag" style="background: #00c2ff"> App Store </span>
+          <time>June 2016</time>
+          <p> Published a follow-up app to my study app series: AP European History - Prep Me! Game </p>
+          <a href="https://itunes.apple.com/us/app/ap-european-history-prep-me-game/id1135262577?ls=1&mt=8" target=_blank> Check it out on the App Store </a>
+          <span class="circle"/>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-item-content">
+          <span class="tag" style="background: #00c2ff"> App Store </span>
+          <time>August 2015</time>
+          <p> Released my first app: Prep Me! - AP World History </p>
+          <a href="https://itunes.apple.com/us/app/prep-me-ap-world-history/id1028928149?mt=8" target=_blank> Check it out on the App Store </a>
           <span class="circle"/>
         </div>
       </div>
