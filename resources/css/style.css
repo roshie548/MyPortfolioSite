@@ -60,69 +60,13 @@ nav a:active {
     padding: 5px 20px;
 }
 
-img {
-    border-radius: 50%;
-    border: 8px solid #abd4ff;
-}
-
-.banner-text {
-    background-color: #a6d1ff;
-    opacity: 0.86;
-    width: 75%;
-    margin: auto;
-    border-radius: 10px;
-    text-align: center;
-    padding-bottom: 5px;
-}
-
-.banner-text h1 {
-    font-size: 40px;
-    font-family: 'Oxygen', sans-serif;
-    font-weight: bold;
-    color: black;
-    line-height: 0.0;
-}
-
-.banner-text h2 {
-    font-size: 20px;
-    font-family: 'Oxygen', sans-serif;
-    font-weight: bold;
-    color: black;
-    padding-top: 7px;
-}
-
-.links {
-    display: flex;
-    justify-content: space-between;
-    width: 50%;
-    margin: auto;
-}
-
-.links i {
-    /* color: white; */
-    font-size: 3em;
-    padding-top: 7px;
-    padding-bottom: 7px;
-}
-
-.links i:hover {
-    color: #0047ff;
-    transition: .5s color;
-}
-
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .fade-in {
   opacity: 0;
-  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-     -moz-animation: fadein 2s; /* Firefox < 16 */
-      -ms-animation: fadein 2s; /* Internet Explorer */
-       -o-animation: fadein 2s; /* Opera < 12.1 */
-          animation: fadein 2s;
+  -webkit-animation: fadein 1.5s; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: fadein 1.5s; /* Firefox < 16 */
+      -ms-animation: fadein 1.5s; /* Internet Explorer */
+       -o-animation: fadein 1.5s; /* Opera < 12.1 */
+          animation: fadein 1.5s;
   -webkit-animation-fill-mode: forwards;
       -moz-animation-fill-mode: forwards;/* Firefox < 16 */
        -ms-animation-fill-mode: forwards;/* Internet Explorer */
@@ -139,7 +83,7 @@ img {
 }
 
 .fade-in.three {
-  -webkit-animation-delay: 1.25s;
+  -webkit-animation-delay: 1s;
 }
 
 @keyframes fadein {

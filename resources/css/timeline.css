@@ -131,3 +131,26 @@
     right: auto;
     left: -40px;
 }
+
+.timeline-header {
+  padding: 0;
+  padding-bottom: 30px;
+}
+
+.timeline-header h1 {
+  font-size: 40px;
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+  color: black;
+  line-height: 0.0;
+  text-align: center;
+}
+
+.timeline-header h2 {
+  font-size: 20px;
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+  color: black;
+  padding-top: 7px;
+  text-align: center;
+}
