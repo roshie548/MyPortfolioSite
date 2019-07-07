@@ -1,10 +1,10 @@
 img {
     border-radius: 50%;
-    border: 8px solid #abd4ff;
+    border: 8px solid #404F99;
 }
 
 .banner-text {
-    background-color: #a6d1ff;
+    /* background-color: #919AFF; */
     opacity: 0;
     width: 75%;
     margin: auto;
@@ -17,7 +17,7 @@ img {
     font-size: 40px;
     font-family: 'Oxygen', sans-serif;
     font-weight: bold;
-    color: black;
+    color: rgb(217, 217, 217);
     line-height: 0.0;
 }
 
@@ -25,7 +25,7 @@ img {
     font-size: 20px;
     font-family: 'Oxygen', sans-serif;
     font-weight: bold;
-    color: black;
+    color: rgb(217, 217, 217);
     padding-top: 7px;
 }
 
@@ -34,6 +34,7 @@ img {
     justify-content: space-between;
     width: 50%;
     margin: auto;
+    padding: 10px;
 }
 
 .links i {
@@ -44,7 +45,7 @@ img {
 }
 
 .links i:hover {
-    color: #0047ff;
+    color: rgb(217, 217, 217);
     transition: .5s color;
 }
 
