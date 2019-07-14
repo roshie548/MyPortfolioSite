@@ -4,7 +4,7 @@
     position: relative;
     top: 100%;
     background-color: #DCC48E;
-    color: black;
+    color: #27233A;
 }
 
 .column.left {
@@ -12,7 +12,6 @@
     padding: 0 5%;
     font-family: 'Open Sans', Sans-Serif;
     font-size: 15px;
-    /*color: rgb(217, 217, 217);*/
     align-self: center;
 }
 

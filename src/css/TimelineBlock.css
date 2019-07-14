@@ -1,0 +1,49 @@
+/* Source: https://medium.freecodecamp.org/how-to-create-a-timeline-component-with-react-1b216f23d3d4 */
+/* TODO: Adjust timeline for mobile screens */
+
+.timeline-block {
+    padding-top: 30px;
+}
+
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+.timeline-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 10px 0;
+    text-decoration: none;
+}
+
+.timeline-container::after {
+    background-color: #773344;
+    content: '';
+    position: absolute;
+    left: calc(50% - 2px);
+    width: 4px;
+    height: 100%;
+    z-index: 1;
+}
+
+.timeline-header {
+    padding: 0 0 30px;
+    color: #EAEFD3;
+}
+
+.timeline-header h1 {
+    font-family: 'Raleway', Sans-Serif;
+    font-size: 44px;
+    font-weight: bold;
+    line-height: 0.0;
+    text-align: center;
+}
+
+.timeline-header h2 {
+    font-family: 'Open Sans', Sans-Serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 7px;
+    text-align: center;
+}

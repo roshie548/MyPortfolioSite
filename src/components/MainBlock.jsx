@@ -6,8 +6,8 @@ import SocialMediaLink from "./SocialMediaLink";
 const MainBlock = () =>
     <div className="wrapper">
         <div className="main-block center">
-            <Avatar src={require("./../images/avatar.png")} variant="center fade-in one"/>
             <div className="banner-text fade-in two">
+                <Avatar src={require("./../images/avatar.png")} variant="center fade-in one"/>
                 <h2>Hey there,</h2>
                 <h1>I'm Roshan!</h1>
                 <div className="links fade-in three">

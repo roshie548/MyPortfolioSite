@@ -14,7 +14,7 @@ nav {
 }
 
 nav a {
-    color: rgb(217, 217, 217);
+    color: #EAEFD3;
     text-decoration: none;
     padding: 5px 20px;
     font-family: "Roboto", sans-serif;
@@ -38,7 +38,7 @@ nav a:active {
 
 .title {
     display: block;
-    color: rgb(217, 217, 217);
+    color: #EAEFD3;
     float: left;
     font-family: "Roboto", sans-serif;
     padding: 5px 20px;

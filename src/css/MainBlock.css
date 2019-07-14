@@ -4,7 +4,6 @@
     align-items: center;
     justify-items: center;
     height: calc(100vh - 50px);
-    border-bottom-style: dotted;
 }
 .main-block {
     position: relative;
@@ -29,16 +28,16 @@
 }
 
 .banner-text h1 {
-    font-size: 40px;
-    font-family: 'Oxygen', sans-serif;
+    font-size: 65px;
+    font-family: 'Raleway', Sans-Serif;
     font-weight: bold;
     /*color: rgb(217, 217, 217);*/
     line-height: 0.0;
 }
 
 .banner-text h2 {
-    font-size: 20px;
-    font-family: 'Oxygen', sans-serif;
+    font-size: 30px;
+    font-family: 'Open Sans', Sans-Serif;
     font-weight: bold;
     /*color: rgb(217, 217, 217);*/
     padding-top: 7px;
@@ -60,7 +59,7 @@
 }
 
 .links i:hover {
-    color: rgb(217, 217, 217);
+    color: #EAEFD3;
     transition: .5s color;
 }
 
