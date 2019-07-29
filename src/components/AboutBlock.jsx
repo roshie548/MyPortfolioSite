@@ -38,34 +38,34 @@ const AboutBlock = () =>
 
 const pictures = [
     [
-        new SquareImageObj(require("./../images/grid1.jpg"), "fade-in one"),
-        new SquareImageObj(require("./../images/grid2.jpg"), "fade-in four"),
-        new SquareImageObj(require("./../images/grid3.jpg"), "fade-in two")
+        new SquareImageObj(require("./../images/grid1.jpg"), 0),
+        new SquareImageObj(require("./../images/grid2.jpg"), 250),
+        new SquareImageObj(require("./../images/grid3.jpg"), 500)
     ],
     [
-        new SquareImageObj(require("./../images/grid5.jpg"), "fade-in four"),
-        new SquareImageObj(require("./../images/grid4.jpg"), "fade-in two"),
-        new SquareImageObj(require("./../images/grid6.jpg"), "fade-in five")
+        new SquareImageObj(require("./../images/grid5.jpg"), 0),
+        new SquareImageObj(require("./../images/grid4.jpg"), 250),
+        new SquareImageObj(require("./../images/grid6.jpg"), 500)
     ],
     [
-        new SquareImageObj(require("./../images/grid7.jpg"), "fade-in two"),
-        new SquareImageObj(require("./../images/grid8.jpg"), "fade-in two"),
-        new SquareImageObj(require("./../images/grid9.jpg"), "fade-in five"),
-        new SquareImageObj(require("./../images/grid10.jpg"), "fade-in three")
+        new SquareImageObj(require("./../images/grid7.jpg"), 0),
+        new SquareImageObj(require("./../images/grid8.jpg"), 250),
+        new SquareImageObj(require("./../images/grid9.jpg"), 500),
+        new SquareImageObj(require("./../images/grid10.jpg"), 750)
     ]
 ];
 
 const squarePictures = pictures.map((item) => {
     let pics = [];
     for (let i of item) {
-        pics.push(<SquareImage src={i.src} fade={i.fade}/>);
+        pics.push(<SquareImage src={i.src} delay={i.delay}/>);
     }
     return <div className={"column img"}>{pics}</div>
 });
 
-function SquareImageObj(src, fade) {
+function SquareImageObj(src, delay) {
     this.src = src;
-    this.fade = fade;
+    this.delay = delay;
 }
 
 

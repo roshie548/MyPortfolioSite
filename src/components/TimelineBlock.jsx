@@ -1,7 +1,6 @@
 import React from 'react';
 import './../css/TimelineBlock.css'
 import TimelineItem from './TimelineItem'
-import SquareImage from "./SquareImage";
 
 const TimelineBlock = () =>
     <div className="timeline-block">
