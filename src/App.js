@@ -4,6 +4,7 @@ import Nav from './components/Nav.jsx'
 import MainBlock from "./components/MainBlock";
 import AboutBlock from "./components/AboutBlock";
 import TimelineBlock from "./components/TimelineBlock";
+import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
         <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet"/>
         </head>
         <body>
-            <Nav/>
+        <Nav/>
             <MainBlock/>
             <AboutBlock/>
             <TimelineBlock/>

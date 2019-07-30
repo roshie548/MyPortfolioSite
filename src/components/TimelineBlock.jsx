@@ -1,8 +1,10 @@
 import React from 'react';
 import './../css/TimelineBlock.css'
 import TimelineItem from './TimelineItem'
+import {Element} from "react-scroll/modules";
 
 const TimelineBlock = () =>
+    <Element name="timeline">
     <div className="timeline-block">
         <div className="timeline-header">
             <h2 className='center fade-in one'> More than just the product: </h2>
@@ -42,7 +44,8 @@ const TimelineBlock = () =>
             {/*    </div>*/}
             {/*</div>*/}
         </div>
-    </div>;
+    </div>
+    </Element>;
 
 const objs = [
     new TimelineObj('red', 'Internship', 'May 2019 - Present', "Began working at InfluxData as a Software Engineering Intern", "https://github.com/influxdata/flux", "See what I worked on"),

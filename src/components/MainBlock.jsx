@@ -2,8 +2,10 @@ import React from 'react'
 import './../css/MainBlock.css'
 import Avatar from "./Avatar";
 import SocialMediaLink from "./SocialMediaLink";
+import {Element} from "react-scroll/modules";
 
 const MainBlock = () =>
+    <Element name="mainblock">
     <div className="wrapper">
         <div className="main-block center">
             <div className="banner-text fade-in two">
@@ -15,7 +17,8 @@ const MainBlock = () =>
                 </div>
             </div>
         </div>
-    </div>;
+    </div>
+    </Element>;
 
 const socialMediaLinks = [
     {
