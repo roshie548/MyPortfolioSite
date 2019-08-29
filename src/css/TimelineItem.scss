@@ -1,3 +1,5 @@
+@import "./../App.scss";
+
 .timeline-item {
     display: flex;
     justify-content: flex-end;
@@ -15,9 +17,10 @@
 }
 
 .timeline-item-content {
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 2px 4px rgba(0,0,0,.3), 0 0 2px rgba(0,0,0,.08);
+    -webkit-box-shadow: 0 2px 4px rgba(0,0,0,.3), 0 0 2px rgba(0,0,0,.08);
     border-radius: 5px;
-    background-color: #EAEFD3;
+    background-color: white;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -31,8 +34,9 @@
 
 .timeline-item-content::after {
     content: ' ';
-    background-color: #EAEFD3;
-    box-shadow: 1px -1px 1px rgba(0, 0, 0, 0.2);
+    background-color: $light-text;
+    box-shadow: 0 2px 4px rgba(0,0,0,.16), 0 0 2px rgba(0,0,0,.08);
+    -webkit-box-shadow: 0 2px 4px rgba(0,0,0,.16), 0 0 2px rgba(0,0,0,.08);
     position: absolute;
     right: -7.5px;
     top: calc(50% - 7.5px);
@@ -48,7 +52,8 @@
 .timeline-item:nth-child(odd) .timeline-item-content::after {
     right: auto;
     left: -7.5px;
-    box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 4px rgba(0,0,0,.16), 0 0 2px rgba(0,0,0,.08);
+    -webkit-box-shadow: 0 2px 4px rgba(0,0,0,.16), 0 0 2px rgba(0,0,0,.08);
 }
 
 .timeline-item-content .tag {
@@ -76,13 +81,13 @@
     line-height: 24px;
     margin: 15px 0;
     max-width: 300px;
-    color: #27233A;
+    color: $light-text;
 }
 .timeline-item-content a {
     font-size: 14px;
     font-weight: bold;
     text-decoration: none;
-    color: #27233A;
+    color: $light-text;
 }
 
 .timeline-item-content a:hover {
@@ -94,8 +99,8 @@
     font-size: 12px;
 }
 .timeline-item-content .circle {
-    background-color: #FB3640;
-    border: 3px solid #773344;
+    background-color: white;
+    border: 3px solid $color-text;
     border-radius: 50%;
     position: absolute;
     top: calc(50% - 10px);

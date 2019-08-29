@@ -5,6 +5,8 @@
   "homepage": "https://roshie548.github.io/MyPortfolioSite/",
   "dependencies": {
     "gh-pages": "^2.0.1",
+    "node-sass": "^4.12.0",
+    "radium": "^0.25.2",
     "react": "^16.8.6",
     "react-animate-on-scroll": "^2.1.5",
     "react-dom": "^16.8.6",

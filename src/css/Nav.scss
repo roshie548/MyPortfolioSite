@@ -1,3 +1,5 @@
+@import "./../App.scss";
+
 nav {
     position: -webkit-sticky;
     position: sticky;
@@ -14,7 +16,7 @@ nav {
 }
 
 nav a {
-    color: #EAEFD3;
+    color: $light-text;
     text-decoration: none;
     padding: 5px 20px;
     font-family: "Roboto", sans-serif;
@@ -32,12 +34,12 @@ nav a:hover {
 
 .active {
     opacity: 1.0;
-    border-bottom: 3px solid #EAEFD3;
+    border-bottom: 3px solid $light-text;
 }
 
 .title {
     display: block;
-    color: #EAEFD3;
+    color: $light-text;
     float: left;
     font-family: "Roboto", sans-serif;
     padding: 5px 20px;

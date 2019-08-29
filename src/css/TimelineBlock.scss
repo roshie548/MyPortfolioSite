@@ -1,5 +1,6 @@
 /* Source: https://medium.freecodecamp.org/how-to-create-a-timeline-component-with-react-1b216f23d3d4 */
 /* TODO: Adjust timeline for mobile screens */
+@import "./../App.scss";
 
 .timeline-block {
     padding-top: 30px;
@@ -18,7 +19,7 @@
 }
 
 .timeline-container::after {
-    background-color: #773344;
+    background-color: rgba(0, 0, 0, 0.6);
     content: '';
     position: absolute;
     left: calc(50% - 2px);
@@ -29,7 +30,7 @@
 
 .timeline-header {
     padding: 0 0 30px;
-    color: #EAEFD3;
+    color: $color-text;
 }
 
 .timeline-header h1 {

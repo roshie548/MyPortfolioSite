@@ -1,5 +1,5 @@
 import React from 'react'
-import './../css/Nav.css'
+import '../css/Nav.scss'
 import {Link} from "react-scroll/modules";
 
 const Nav = () =>

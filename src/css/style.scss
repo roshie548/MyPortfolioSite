@@ -1,8 +1,10 @@
+@import "./../App.scss";
+
 html, body {
     padding: 0;
     margin: 0;
     height: 100%;
-    background: radial-gradient(circle at 10% 20%, rgb(23, 18, 66) 0%, rgb(60, 53, 122) 100.2%);
+    background: $primary-gradient;
     font-family: Helvetica, sans-serif;
 }
 
@@ -18,11 +20,11 @@ header {
 
 .fade-in {
   opacity: 0;
-  -webkit-animation: fadein 1.5s; /* Safari, Chrome and Opera > 12.1 */
-     -moz-animation: fadein 1.5s; /* Firefox < 16 */
-      -ms-animation: fadein 1.5s; /* Internet Explorer */
-       -o-animation: fadein 1.5s; /* Opera < 12.1 */
-          animation: fadein 1.5s;
+  -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: fadein 1s; /* Firefox < 16 */
+      -ms-animation: fadein 1s; /* Internet Explorer */
+       -o-animation: fadein 1s; /* Opera < 12.1 */
+          animation: fadein 1s;
   -webkit-animation-fill-mode: forwards;
       -moz-animation-fill-mode: forwards;/* Firefox < 16 */
        -ms-animation-fill-mode: forwards;/* Internet Explorer */
@@ -53,6 +55,23 @@ header {
        -o-animation-delay: 1s;/* Opera < 12.1 */
           animation-delay: 1s;
 }
+
+.fade-in.four {
+  -webkit-animation-delay: 0.25s;
+  -moz-animation-delay: 0.25s;/* Firefox < 16 */
+  -ms-animation-delay: 0.25s;/* Internet Explorer */
+  -o-animation-delay: 0.25s;/* Opera < 12.1 */
+  animation-delay: 0.25s;
+}
+
+.fade-in.five {
+  -webkit-animation-delay: 0.75s;
+  -moz-animation-delay: 0.75s;/* Firefox < 16 */
+  -ms-animation-delay: 0.75s;/* Internet Explorer */
+  -o-animation-delay: 0.75s;/* Opera < 12.1 */
+  animation-delay: 0.75s;
+}
+
 
 @keyframes fadein {
     from {
