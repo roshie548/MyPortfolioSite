@@ -5,7 +5,7 @@
     position: relative;
     display: flex;
     width: 100%;
-    color: $light-text;
+    color: $dark-text;
 }
 
 .left-container {
@@ -44,7 +44,7 @@
     font-size: 30px;
     font-family: 'Open Sans', Sans-Serif, serif;
     font-weight: normal;
-    color: rgba(0, 0, 0, .6);
+    color: $light-text;
     padding-bottom: 1%;
 }
 

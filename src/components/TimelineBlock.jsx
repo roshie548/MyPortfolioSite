@@ -2,6 +2,7 @@ import React from 'react';
 import '../css/TimelineBlock.scss'
 import TimelineItem from './TimelineItem'
 import {Element} from "react-scroll/modules";
+import ScrollAnimation from "react-animate-on-scroll";
 
 const TimelineBlock = () =>
     <Element name="timeline">
@@ -13,36 +14,6 @@ const TimelineBlock = () =>
 
         <div className="timeline-container fade-in three">
             {items}
-            {/*<div className="timeline-item">*/}
-            {/*    <div className="timeline-item-content">*/}
-            {/*        <span className="tag" style={{background: "#262626"}}> news </span>*/}
-            {/*        <time>July - August 2017</time>*/}
-            {/*        <p> Founded and taught the Coding Club at the Land O Lakes Library </p>*/}
-            {/*        <a href="http://lakerlutznews.com/lln/?p=48617" target="_blank"> Read about it </a>*/}
-            {/*        <span className="circle"/>*/}
-            {/*    </div>*/}
-            {/*</div>*/}
-            {/*<div className="timeline-item">*/}
-            {/*    <div className="timeline-item-content">*/}
-            {/*        <span className="tag" style={{background: "#00c2ff"}}> App Store </span>*/}
-            {/*        <time>June 2016</time>*/}
-            {/*        <p> Published a follow-up app to my study app series: AP European History - Prep Me! Game </p>*/}
-            {/*        <a href="https://itunes.apple.com/us/app/ap-european-history-prep-me-game/id1135262577?ls=1&mt=8"*/}
-            {/*           target="_blank"> Download from the App Store </a>*/}
-            {/*        <span className="circle"/>*/}
-            {/*    </div>*/}
-            {/*</div>*/}
-            {/*<div className="timeline-item">*/}
-            {/*    <div className="timeline-item-content">*/}
-            {/*        <span className="tag" style={{background: "#00c2ff"}}> App Store </span>*/}
-            {/*        <time>August 2015</time>*/}
-            {/*        <p> Released my first app: Prep Me! - AP World History. Went on the win the 2015 Congressional App*/}
-            {/*            Challenge for Florida District 12 </p>*/}
-            {/*        <a href="https://itunes.apple.com/us/app/prep-me-ap-world-history/id1028928149?mt=8"*/}
-            {/*           target="_blank"> Download from the App Store </a>*/}
-            {/*        <span className="circle"/>*/}
-            {/*    </div>*/}
-            {/*</div>*/}
         </div>
     </div>
     </Element>;
@@ -58,7 +29,8 @@ const objs = [
 ];
 
 const items = objs.map((item) => {
-   return <TimelineItem color={item.color} type={item.type} time={item.time} desc={item.desc} link={item.link} linkText={item.linkText}/>
+   return (
+           <TimelineItem color={item.color} type={item.type} time={item.time} desc={item.desc} link={item.link} linkText={item.linkText}/>)
 });
 
 function TimelineObj(color, type, time, desc, link, linkText) {

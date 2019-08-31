@@ -16,7 +16,7 @@ nav {
 }
 
 nav a {
-    color: $light-text;
+    color: $dark-text;
     text-decoration: none;
     padding: 5px 20px;
     font-family: "Roboto", sans-serif;
@@ -34,12 +34,12 @@ nav a:hover {
 
 .active {
     opacity: 1.0;
-    border-bottom: 3px solid $light-text;
+    border-bottom: 3px solid $dark-text;
 }
 
 .title {
     display: block;
-    color: $light-text;
+    color: $dark-text;
     float: left;
     font-family: "Roboto", sans-serif;
     padding: 5px 20px;

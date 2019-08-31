@@ -28,7 +28,7 @@ const MainBlock = () =>
                     </div>
                     <div className="arrow-container fade-in three">
                         <div className="arrow">
-                            <h2> <Link to="aboutblock" spy={true} smooth={"easeInOutQuart"} duration={400} offset={-50}> <i className="fas fa-chevron-down"/> </Link></h2>
+                            <h2> <Link to="aboutblock" spy={true} smooth={"easeInOutQuart"} duration={400} offset={-75}> <i className="fas fa-chevron-down"/> </Link></h2>
                         </div>
                     </div>
                 </div>
