@@ -34,9 +34,8 @@
 
 .timeline-item-content::after {
     content: ' ';
-    background-color: $dark-text;
-    box-shadow: 0 2px 4px rgba(0,0,0,.16), 0 0 2px rgba(0,0,0,.08);
-    -webkit-box-shadow: 0 2px 4px rgba(0,0,0,.16), 0 0 2px rgba(0,0,0,.08);
+    background-color: white;
+    box-shadow: 1px -1px 1px rgba(0, 0, 0, 0.2);
     position: absolute;
     right: -7.5px;
     top: calc(50% - 7.5px);
@@ -52,8 +51,7 @@
 .timeline-item:nth-child(odd) .timeline-item-content::after {
     right: auto;
     left: -7.5px;
-    box-shadow: 0 2px 4px rgba(0,0,0,.16), 0 0 2px rgba(0,0,0,.08);
-    -webkit-box-shadow: 0 2px 4px rgba(0,0,0,.16), 0 0 2px rgba(0,0,0,.08);
+    box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.2);
 }
 
 .timeline-item-content .tag {
