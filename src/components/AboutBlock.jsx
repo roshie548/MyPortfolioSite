@@ -9,8 +9,6 @@ const offset = 100;
 const AboutBlock = () =>
     <Element name="aboutblock">
     <div className="about-block">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway:300,400" rel="stylesheet"/>
-
         <div className="column left">
             {squarePictures}
         </div>

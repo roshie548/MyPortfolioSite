@@ -72,6 +72,29 @@ header {
   animation-delay: 0.75s;
 }
 
+.fade-still {
+  opacity: 0;
+  -webkit-animation: fadestill 1s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadestill 1s; /* Firefox < 16 */
+  -ms-animation: fadestill 1s; /* Internet Explorer */
+  -o-animation: fadestill 1s; /* Opera < 12.1 */
+  animation: fadestill 1s;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;/* Firefox < 16 */
+  -ms-animation-fill-mode: forwards;/* Internet Explorer */
+  -o-animation-fill-mode: forwards;/* Opera < 12.1 */
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadestill {
+    from {
+      opacity: 0;
+    }
+    to   {
+      opacity: 1;
+    }
+}
+
 
 @keyframes fadein {
     from {

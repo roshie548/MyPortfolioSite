@@ -2,7 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="682b5a8a-9e5f-4f9f-a922-0026f3f3f16b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Card.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/FeaturedBlock.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/FeaturedItem.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/Card.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/FeaturedBlock.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/FeaturedItem.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AboutBlock.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutBlock.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainBlock.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainBlock.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SocialMediaLink.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SocialMediaLink.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/AboutBlock.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/AboutBlock.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/MainBlock.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/MainBlock.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -15,14 +29,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/AboutBlock.jsx">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/FeaturedBlock.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1704">
-              <caret line="93" column="17" selection-start-line="93" selection-end-line="93" selection-end-column="26" />
+            <state relative-caret-position="528">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
               <folding>
-                <element signature="e#0#25#0" expanded="true" />
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Card.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/css/FeaturedItem.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-22">
+              <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/css/Card.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -30,17 +74,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+            <state relative-caret-position="504">
+              <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -56,36 +94,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>padding</find>
-      <find>fade</find>
+      <find>slide__im</find>
+      <find>overflow</find>
+      <find>--current</find>
+      <find>slide</find>
+      <find>widt</find>
       <find>style</find>
+      <find>rubrik</find>
+      <find>title</find>
+      <find>icon</find>
+      <find>social</find>
       <find>fadein</find>
-      <find>fade-in {</find>
-      <find>mainblock</find>
-      <find>\</find>
-      <find>shadow</find>
-      <find>box</find>
-      <find>white</find>
-      <find>red</find>
-      <find>color</find>
-      <find>column.left</find>
-      <find>-20</find>
-      <find>l</find>
-      <find>I Like bui</find>
-      <find>fade-in</find>
-      <find>delay</find>
-      <find>enter</find>
-      <find>bounce</find>
-      <find>animated</find>
-      <find>Sq</find>
-      <find>SquareImage</find>
-      <find>background</find>
-      <find>timeline-container</find>
-      <find>::after</find>
-      <find>ba</find>
-      <find>rgba</find>
-      <find>z-ind</find>
-      <find>circle</find>
+      <find>margin</find>
+      <find>padding</find>
+      <find>descriptio</find>
+      <find>descrip</find>
+      <find>center</find>
+      <find>right</find>
+      <find>Card</find>
+      <find>.css</find>
+      <find>round</find>
+      <find>card</find>
+      <find>img</find>
+      <find>fade-right</find>
+      <find>nth</find>
+      <find>fadeInleft</find>
+      <find>description</find>
+      <find>desc</find>
+      <find>Open+</find>
+      <find>Roboto</find>
+      <find>fadeInLeft</find>
     </findStrings>
     <replaceStrings>
       <replace>className=</replace>
@@ -115,37 +153,46 @@
         <option value="$PROJECT_DIR$/src/css/Avatar.css" />
         <option value="$PROJECT_DIR$/src/css/timeline.css" />
         <option value="$PROJECT_DIR$/src/css/TimelineBlock.css" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/css/Nav.css" />
         <option value="$PROJECT_DIR$/src/components/Nav.jsx" />
         <option value="$PROJECT_DIR$/src/css/style.css" />
         <option value="$PROJECT_DIR$/src/css/AboutBlock.css" />
         <option value="$PROJECT_DIR$/src/css/MainBlock.css" />
         <option value="$PROJECT_DIR$/src/css/TimelineItem.css" />
-        <option value="$PROJECT_DIR$/src/components/SocialMediaLink.jsx" />
         <option value="$PROJECT_DIR$/src/css/Avatar.scss" />
         <option value="$PROJECT_DIR$/src/css/Nav.scss" />
         <option value="$PROJECT_DIR$/src/css/SquareImage.css" />
         <option value="$PROJECT_DIR$/src/App.scss" />
-        <option value="$PROJECT_DIR$/src/css/style.scss" />
-        <option value="$PROJECT_DIR$/src/components/MainBlock.jsx" />
-        <option value="$PROJECT_DIR$/src/css/MainBlock.scss" />
-        <option value="$PROJECT_DIR$/src/css/AboutBlock.scss" />
         <option value="$PROJECT_DIR$/src/css/animate.css" />
         <option value="$PROJECT_DIR$/src/components/SquareImage.jsx" />
-        <option value="$PROJECT_DIR$/src/components/AboutBlock.jsx" />
         <option value="$PROJECT_DIR$/src/components/TimelineBlock.jsx" />
-        <option value="$PROJECT_DIR$/src/css/TimelineItem.scss" />
         <option value="$PROJECT_DIR$/src/components/TimelineItem.jsx" />
         <option value="$PROJECT_DIR$/src/css/TimelineBlock.scss" />
         <option value="$PROJECT_DIR$/src/components/ProjectsBlock.jsx" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/css/ProjectPanel.scss" />
+        <option value="$PROJECT_DIR$/src/components/ProjectPanel.jsx" />
+        <option value="$PROJECT_DIR$/src/css/MainBlock.scss" />
+        <option value="$PROJECT_DIR$/src/components/SocialMediaLink.jsx" />
+        <option value="$PROJECT_DIR$/src/css/AboutBlock.scss" />
+        <option value="$PROJECT_DIR$/src/css/TimelineItem.scss" />
+        <option value="$PROJECT_DIR$/src/css/FeaturedBlock.scss" />
+        <option value="$PROJECT_DIR$/src/css/Card.scss" />
+        <option value="$PROJECT_DIR$/src/css/style.scss" />
+        <option value="$PROJECT_DIR$/src/components/FeaturedItem.jsx" />
+        <option value="$PROJECT_DIR$/src/css/FeaturedItem.scss" />
+        <option value="$PROJECT_DIR$/src/components/MainBlock.jsx" />
+        <option value="$PROJECT_DIR$/src/components/AboutBlock.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Card.jsx" />
+        <option value="$PROJECT_DIR$/src/components/FeaturedBlock.jsx" />
+        <option value="$PROJECT_DIR$/src/css/Card.css" />
+        <option value="$PROJECT_DIR$/src/App.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1280" />
-    <option name="height" value="800" />
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="width" value="958" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -159,11 +206,6 @@
             <path>
               <item name="myportfoliosite" type="b2602c69:ProjectViewProjectNode" />
               <item name="myportfoliosite" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myportfoliosite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myportfoliosite" type="462c0819:PsiDirectoryNode" />
-              <item name="old" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myportfoliosite" type="b2602c69:ProjectViewProjectNode" />
@@ -191,7 +233,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/images" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -202,7 +244,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/images" />
       <recent name="$PROJECT_DIR$/my-app/src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -266,11 +312,35 @@
       <workItem from="1567279823821" duration="2616000" />
       <workItem from="1568310525073" duration="599000" />
       <workItem from="1568311968182" duration="1223000" />
+      <workItem from="1569397765595" duration="1386000" />
+      <workItem from="1569569099094" duration="2317000" />
+      <workItem from="1570585514317" duration="1076000" />
+      <workItem from="1570587290799" duration="203000" />
+      <workItem from="1570696122774" duration="3061000" />
+      <workItem from="1570732583542" duration="1146000" />
+      <workItem from="1570754923127" duration="988000" />
+      <workItem from="1571338000659" duration="143000" />
+      <workItem from="1572141143296" duration="29000" />
+      <workItem from="1574065400717" duration="74000" />
+      <workItem from="1574189695914" duration="148000" />
+      <workItem from="1574190520491" duration="225000" />
+      <workItem from="1575573739990" duration="2632000" />
+      <workItem from="1575658736756" duration="2019000" />
+      <workItem from="1575847201763" duration="3211000" />
+      <workItem from="1576055519792" duration="2965000" />
+      <workItem from="1576104397247" duration="10000" />
+      <workItem from="1576989700230" duration="273000" />
+      <workItem from="1577057874692" duration="759000" />
+      <workItem from="1577689668709" duration="462000" />
+      <workItem from="1577733229446" duration="32000" />
+      <workItem from="1577733456531" duration="1013000" />
+      <workItem from="1578177731404" duration="35000" />
+      <workItem from="1578363827800" duration="7495000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89394000" />
+    <option name="totallyTimeSpent" value="121788000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -282,9 +352,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49689442" visible="true" weight="0.19539317" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49689442" visible="true" weight="0.209584" />
       <window_info id="Structure" order="1" sideWeight="0.5031056" side_tool="true" weight="0.19539317" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -296,8 +367,8 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32876712" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32876712" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49960285" visible="true" weight="0.33835617" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50039715" side_tool="true" weight="0.72328764" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49839914" weight="0.4671233" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50160086" side_tool="true" weight="0.33762378" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -307,9 +378,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/my-app/src/index.css" />
-    <entry file="file://$PROJECT_DIR$/my-app/src/css/style.css" />
-    <entry file="file://$PROJECT_DIR$/my-app/src/components/social_media_link.js" />
     <entry file="file://$PROJECT_DIR$/index.html" />
     <entry file="file://$PROJECT_DIR$/my-app/package.json" />
     <entry file="file://$PROJECT_DIR$/my-app/src/App.js" />
@@ -367,15 +435,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/css/about.css" />
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/sass/lib/sass.jar!/org/jetbrains/plugins/sass/stdlib/sass_functions.scss">
       <provider selected="true" editor-type-id="text-editor">
@@ -391,27 +450,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/sectional.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/css/Avatar.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/SocialMediaLink.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -422,76 +464,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/timeline.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/SquareImage.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/MainBlock.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="97" column="1" lean-forward="true" selection-start-line="97" selection-start-column="1" selection-end-line="97" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Avatar.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Nav.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="107" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="107" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/css/animate.css" />
-    <entry file="file://$PROJECT_DIR$/src/css/AboutBlock.scss">
+    <entry file="file://$PROJECT_DIR$/src/components/ProjectsBlock.jsx" />
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="65" column="15" selection-start-line="65" selection-start-column="15" selection-end-line="65" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
-          <folding>
-            <marker date="1567144253656" expanded="true" signature="340:442" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/TimelineBlock.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="25" column="15" lean-forward="true" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
+        <state relative-caret-position="340">
+          <caret line="22" column="15" lean-forward="true" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -505,58 +483,226 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/TimelineItem.jsx">
+    <entry file="file://$PROJECT_DIR$/src/components/Nav.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        <state relative-caret-position="168">
+          <caret line="7" column="107" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="107" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/timeline.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/influxdata-logo--symbol--white.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/radium/es/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/SocialMediaLink.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/TimelineBlock.jsx">
+    <entry file="file://$PROJECT_DIR$/src/components/Avatar.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="41" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="41" />
+        <state relative-caret-position="48">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#25#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/SquareImage.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/sectional.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/TimelineBlock.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="37" column="18" selection-start-line="37" selection-end-line="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/css/TimelineItem.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1603">
-          <caret line="98" column="22" selection-start-line="98" selection-start-column="22" selection-end-line="98" selection-end-column="22" />
+        <state relative-caret-position="1176">
+          <caret line="49" column="1" lean-forward="true" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/TimelineBlock.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="32" column="19" lean-forward="true" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/Card.scss" />
+    <entry file="file://$PROJECT_DIR$/src/css/AboutBlock.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-371">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/PinClipart.com_rolling-pin-clip-art_3584545.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="104" column="14" selection-start-line="104" selection-start-column="14" selection-end-line="104" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/TimelineItem.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/FeaturedBlock.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/FeaturedItem.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/MainBlock.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/AboutBlock.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1704">
-          <caret line="93" column="17" selection-start-line="93" selection-end-line="93" selection-end-column="26" />
+        <state relative-caret-position="264">
+          <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ProjectsBlock.jsx" />
-    <entry file="file://$PROJECT_DIR$/src/components/MainBlock.jsx">
+    <entry file="file://$PROJECT_DIR$/src/css/FeaturedItem.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        <state relative-caret-position="-22">
+          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/MainBlock.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1378">
+          <caret line="60" column="8" lean-forward="true" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
           <folding>
-            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/src/css/Card.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+        <state relative-caret-position="240">
+          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Card.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/FeaturedBlock.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

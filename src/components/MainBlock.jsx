@@ -7,7 +7,6 @@ import {Element, Link} from "react-scroll/modules";
 const MainBlock = () =>
     <Element name="mainblock">
         <div className="main-block">
-            <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway:300,400" rel="stylesheet"/>
             <div className="left-container">
                 <div className="banner-text">
                     <h1 className="fade-in one">Hi, I'm Roshan.</h1>
@@ -68,10 +67,10 @@ function getLinkStyle(color) {
         font_size: '25px',
         padding_top: '7px',
         padding_bottom: '7px',
+        transition: 'color .1s, transform .1s ease-in-out',
         ':hover': {
             color: color,
             transform: 'translate(0, -5px)',
-            transition: 'color .1s, transform .1s ease-in-out',
         }
     }
 }

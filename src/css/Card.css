@@ -1,0 +1,38 @@
+.round {
+    border-radius: 16px;
+}
+
+.description {
+    width: 450px;
+    /*height: 43vh;*/
+    background-color: white;
+    -webkit-box-shadow: 0 2px 4px rgba(0,0,0,.16), 0 0 2px rgba(0,0,0,.08);
+    box-shadow: 0 2px 4px rgba(0,0,0,.16), 0 0 2px rgba(0,0,0,.08);
+    text-align: left;
+    padding: 30px 25px;
+    color: rgba(0, 0, 0, .8);
+}
+
+.description h2 {
+    color: black;
+    font-family: 'Raleway', Sans-Serif, serif;
+    font-size: 30px;
+    margin: 0;
+}
+
+.description h3 {
+    font-family: 'Open Sans', Sans-Serif, serif;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0;
+    padding-top: 10px;
+    line-height: 1.5;
+}
+
+.description h4 {
+    font-family: 'Open Sans', Sans-Serif, serif;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 0;
+    line-height: 1.5;
+}

@@ -7,6 +7,6 @@ class SocialMediaLink extends React.Component {
     }
 }
 
-SocialMediaLink = Radium(SocialMediaLink)
+SocialMediaLink = Radium(SocialMediaLink);
 
 export default SocialMediaLink;
