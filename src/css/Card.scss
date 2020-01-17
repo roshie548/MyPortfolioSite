@@ -1,16 +1,19 @@
+@import "./../App.scss";
+
 .round {
     border-radius: 16px;
 }
 
 .description {
-    width: 450px;
-    /*height: 43vh;*/
+    height: 100%;
     background-color: white;
     -webkit-box-shadow: 0 2px 4px rgba(0,0,0,.16), 0 0 2px rgba(0,0,0,.08);
     box-shadow: 0 2px 4px rgba(0,0,0,.16), 0 0 2px rgba(0,0,0,.08);
     text-align: left;
     padding: 30px 25px;
     color: rgba(0, 0, 0, .8);
+    transition: height .25s ease-in-out;
+    -webkit-transition: height .25s ease-in-out;
 }
 
 .description h2 {
@@ -31,8 +34,35 @@
 
 .description h4 {
     font-family: 'Open Sans', Sans-Serif, serif;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 300;
     margin: 0;
     line-height: 1.5;
+}
+
+.container {
+    height: 100%;
+    overflow: hidden;
+}
+
+.container ul {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-inline-start: 0;
+    list-style: none;
+}
+
+.container ul li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+
+.container ul li::before {
+    content: "▹";
+    position: absolute;
+    left: 0px;
+    color: $color-text;
 }

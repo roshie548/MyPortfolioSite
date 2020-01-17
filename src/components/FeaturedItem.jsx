@@ -8,7 +8,10 @@ class FeaturedItem extends React.Component {
             <div className="overlaid">
                 <ScrollAnimation animateIn="fade-in" animateOnce={true}>
                     <div className="preview round" style={this.props.style}>
-                        <img src={this.props.img} style={{verticalAlign: 'middle'}}/>
+                        <div className="flexbox-centering">
+                            <div className="color round"/>
+                            <img src={this.props.img} style={{verticalAlign: 'middle'}}/>
+                        </div>
                     </div>
                 </ScrollAnimation>
                 <div className="position">
