@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8a509ca050e85486498ac7394fc3042a",
+    "revision": "def661bf66101621469ce44a2bdc1d32",
     "url": "/index.html"
   },
   {
-    "revision": "39c70ecf96a78846d879",
-    "url": "/static/css/main.ce7c4d4a.chunk.css"
+    "revision": "5636c9e16bae6367d3e9",
+    "url": "/static/css/main.d2e6dd9a.chunk.css"
   },
   {
     "revision": "66dfee16626819ee370c",
     "url": "/static/js/2.ff130666.chunk.js"
   },
   {
-    "revision": "39c70ecf96a78846d879",
-    "url": "/static/js/main.049222bb.chunk.js"
+    "revision": "5636c9e16bae6367d3e9",
+    "url": "/static/js/main.a25ea931.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -24,8 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/PinClipart.com_rolling-pin-clip-art_3584545.6c610a9b.png"
   },
   {
-    "revision": "08baf6cf49772ff8627f59f6e32fc954",
-    "url": "/static/media/avatar.08baf6cf.png"
+    "revision": "9cf837343c6dd7a6f7001f6479a95933",
+    "url": "/static/media/avatar.9cf83734.jpg"
   },
   {
     "revision": "49261a157c9b5f22586126a5f3974cac",
