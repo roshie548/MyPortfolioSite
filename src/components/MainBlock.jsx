@@ -33,7 +33,7 @@ const MainBlock = () =>
                 </div>
             </div>
             <div className="right-container">
-                <Avatar src={require("./../images/avatar.png")} variant="center fade-in two"/>
+                <Avatar src={require("./../images/avatar.jpg")} variant="center fade-in two"/>
             </div>
         </div>
     </Element>;
