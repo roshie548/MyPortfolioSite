@@ -12,8 +12,8 @@ const FeaturedBlock = () =>
     <Element name="featuredblock">
         <div className="panel">
             <h1>Work Experience</h1>
-            <FeaturedItem style={{background: '#3c4d6b'}} name={"Amazon"} img={require("./../images/PinClipart.com_rolling-pin-clip-art_3584545.png")}>
-                <Card name={"Amazon"} role={"Software Development Engineer Intern"}>
+            <FeaturedItem style={{background: '#3c4d6b'}} name={"Amazon"} img={require("./../images/Amazon_Web_Services_Logo.svg")}>
+                <Card name={"Amazon Web Services"} role={"Software Development Engineer Intern"}>
                     Coming Summer 2020...
                 </Card>
             </FeaturedItem>
