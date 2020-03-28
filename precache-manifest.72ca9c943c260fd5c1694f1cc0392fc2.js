@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "def661bf66101621469ce44a2bdc1d32",
+    "revision": "e326018cd543fb3f99cb06b739073e29",
     "url": "/index.html"
   },
   {
-    "revision": "5636c9e16bae6367d3e9",
+    "revision": "b16b54bf1d9dc01dbb46",
     "url": "/static/css/main.d2e6dd9a.chunk.css"
   },
   {
@@ -12,16 +12,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.ff130666.chunk.js"
   },
   {
-    "revision": "5636c9e16bae6367d3e9",
-    "url": "/static/js/main.a25ea931.chunk.js"
+    "revision": "b16b54bf1d9dc01dbb46",
+    "url": "/static/js/main.48f714fc.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
-    "revision": "6c610a9bf5b89a682aaaa21865d964e7",
-    "url": "/static/media/PinClipart.com_rolling-pin-clip-art_3584545.6c610a9b.png"
+    "revision": "f7a9606db1e025af2fadd589c3c11eb1",
+    "url": "/static/media/Amazon_Web_Services_Logo.f7a9606d.svg"
   },
   {
     "revision": "9cf837343c6dd7a6f7001f6479a95933",
