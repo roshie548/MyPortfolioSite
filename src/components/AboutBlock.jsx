@@ -47,7 +47,7 @@ const AboutBlock = () =>
                                 <span className="skill">AWS</span>
                                 <span className="skill">Firebase</span>
                                 <span className="skill">Google Cloud Platform</span>
-                                <span className="skill">SQL Datbases</span>
+                                <span className="skill">SQL Databases</span>
                                 <span className="skill">Time Series</span>
                             </ScrollAnimation>
                         </li>
