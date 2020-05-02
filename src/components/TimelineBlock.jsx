@@ -19,6 +19,8 @@ const TimelineBlock = () =>
     </Element>;
 
 const objs = [
+    new TimelineObj('orange', 'GitHub', 'January - April 2019', 'Lead a team to create a Chrome extension web app that rewards students for studying', "https://github.com/roshie548/constellation.io", "Check it out on GitHub"),
+    new TimelineObj('orange', 'GitHub', 'October 2019', 'Won Docusign API Prize at CalHacks 2019 by creating an Android app for student subletting', "https://github.com/roshie548/calhacks-2019-sublet-app", "Check it out on GitHub"),
     new TimelineObj('red', 'Internship', 'May 2019 - Present', "Began working at InfluxData as a Software Engineering Intern", "https://github.com/influxdata/flux", "See what I worked on"),
     new TimelineObj('orange', 'GitHub', 'April 2019', "Started building my website", "https://github.com/roshie548/MyPortfolioSite", "Check it out on GitHub"),
     new TimelineObj('orange', 'GitHub', 'March 2019', "Machine Learning tinkering with the Heart Disease UCI dataset", "https://github.com/roshie548/Heart-Disease-ML", "Check it out on GitHub"),
