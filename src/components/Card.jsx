@@ -5,7 +5,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 class Card extends React.Component {
     render() {
         return (
-            <ScrollAnimation animateIn="fade-right description round" animateOnce={true}>
+            <ScrollAnimation animateIn="fade-right description round" animateOnce={true} offset={50}>
                 <div className={"container"}>
                     <h2>{this.props.name}</h2>
                     <h3>{this.props.role}</h3>

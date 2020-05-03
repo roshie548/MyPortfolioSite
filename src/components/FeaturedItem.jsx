@@ -6,7 +6,7 @@ class FeaturedItem extends React.Component {
     render() {
         return (
             <div className="overlaid">
-                <ScrollAnimation animateIn="fade-in" animateOnce={true}>
+                <ScrollAnimation animateIn="fade-in" animateOnce={true} offset={100}>
                     <div className="preview round" style={this.props.style}>
                         <div className="flexbox-centering">
                             <div className="color round"/>
