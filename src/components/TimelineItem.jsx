@@ -5,7 +5,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 class TimelineItem extends React.Component {
     render () {
         return (
-            <ScrollAnimation animateIn="fade-in" animateOnce={true} className="timeline-item" style={{z_index: "100"}}>
+            <ScrollAnimation animateIn="fade-in" animateOnce={true} className="timeline-item" offset={50} style={{z_index: "100"}}>
                     <div className="timeline-item-content">
                         <span className="tag" style={{background: this.props.color}}> {this.props.type} </span>
                         <time>{this.props.time}</time>
