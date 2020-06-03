@@ -1,7 +1,6 @@
 @import "./../App.scss";
 
 .main-block {
-    height: calc(100vh - 50px);
     position: relative;
     display: flex;
     width: 100%;
@@ -22,9 +21,8 @@
 .banner-text {
     margin: auto;
     text-align: left;
-    padding-left: 10%;
+    padding-left: 13%;
     padding-top: 5%;
-    padding-bottom: 5px;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -32,7 +30,7 @@
 
 .banner-text h1 {
     color: $color-text;
-    font-size: 70px;
+    font-size: 60px;
     font-family: 'Raleway', Sans-Serif, serif;
     font-weight: bold;
     margin-top: 0;
@@ -40,12 +38,20 @@
     padding-bottom: 3%;
 }
 
-.banner-text h2 {
+.bio {
     font-size: 30px;
     font-family: 'Open Sans', Sans-Serif, serif;
-    font-weight: normal;
+    font-weight: 100;
     color: $light-text;
-    padding-bottom: 1%;
+    margin-bottom: 25px;
+}
+
+.current-positions {
+    font-size: 24px;
+    font-family: 'Open Sans', Sans-Serif, serif;
+    font-weight: 100;
+    color: $light-text;
+    padding-bottom: 5%;
 }
 
 .banner-text a {
@@ -77,8 +83,9 @@
 
 .arrow {
     align-self: flex-end;
-    padding-bottom: 5%;
+    //padding-bottom: 5%;
     font-size: 2em;
+    margin-top: 30px;
 }
 
 .arrow i {

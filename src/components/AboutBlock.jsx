@@ -4,7 +4,7 @@ import SquareImage from "./SquareImage";
 import {Element} from "react-scroll/modules";
 import ScrollAnimation from "react-animate-on-scroll";
 
-const offset = 100;
+const offset = 60;
 
 const AboutBlock = () =>
     <Element name="aboutblock">
@@ -13,9 +13,11 @@ const AboutBlock = () =>
             {squarePictures}
         </div>
         <div className="column right">
-                <div className="big">
-                    <i className="fas fa-laptop-code"/> I like building cool things
-                </div>
+                <ScrollAnimation animateIn="fade-in" animateOnce={true} offset={offset}>
+                    <div className="big">
+                        <i className="fas fa-laptop-code"/> I like building cool things
+                    </div>
+                </ScrollAnimation>
                 <ScrollAnimation animateIn="fade-in" animateOnce={true} offset={offset}>
                     <p>
                         I'm a software engineer and mobile developer

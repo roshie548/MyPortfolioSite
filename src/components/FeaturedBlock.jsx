@@ -11,7 +11,9 @@ import InfluxDashboard from "./../images/influx-dashboard.png";
 const FeaturedBlock = () =>
     <Element name="featuredblock">
         <div className="panel">
-            <h1>Work Experience</h1>
+            <ScrollAnimation animateIn="fade-in" animateOnce={true} offset={10}>
+                <h1>Work Experience</h1>
+            </ScrollAnimation>
             <FeaturedItem style={{background: '#3c4d6b'}} name={"Amazon"} img={require("./../images/Amazon_Web_Services_Logo.svg")}>
                 <Card name={"Amazon Web Services"} role={"Software Development Engineer Intern"}>
                     Coming Summer 2020...
