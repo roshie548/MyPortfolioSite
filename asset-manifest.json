@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.d2e6dd9a.chunk.css",
-    "main.js": "/static/js/main.ae92883a.chunk.js",
-    "main.js.map": "/static/js/main.ae92883a.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.ff130666.chunk.js": "/static/js/2.ff130666.chunk.js",
-    "static/js/2.ff130666.chunk.js.map": "/static/js/2.ff130666.chunk.js.map",
+    "main.css": "/static/css/main.6e018027.chunk.css",
+    "main.js": "/static/js/main.7b4c44d3.chunk.js",
+    "main.js.map": "/static/js/main.7b4c44d3.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.7f64f3de.js",
+    "runtime-main.js.map": "/static/js/runtime-main.7f64f3de.js.map",
+    "static/js/2.dcf7447c.chunk.js": "/static/js/2.dcf7447c.chunk.js",
+    "static/js/2.dcf7447c.chunk.js.map": "/static/js/2.dcf7447c.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.4bdee9ddc6fad0d9a31bac5372f40a0d.js": "/precache-manifest.4bdee9ddc6fad0d9a31bac5372f40a0d.js",
+    "precache-manifest.c032b55a53353b2d40ac8c633161b114.js": "/precache-manifest.c032b55a53353b2d40ac8c633161b114.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.d2e6dd9a.chunk.css.map": "/static/css/main.d2e6dd9a.chunk.css.map",
+    "static/css/main.6e018027.chunk.css.map": "/static/css/main.6e018027.chunk.css.map",
+    "static/js/2.dcf7447c.chunk.js.LICENSE.txt": "/static/js/2.dcf7447c.chunk.js.LICENSE.txt",
     "static/media/Amazon_Web_Services_Logo.svg": "/static/media/Amazon_Web_Services_Logo.f7a9606d.svg",
     "static/media/avatar.jpg": "/static/media/avatar.9cf83734.jpg",
     "static/media/grid1.jpg": "/static/media/grid1.49261a15.jpg",
@@ -26,5 +27,11 @@
     "static/media/influx-dashboard.png": "/static/media/influx-dashboard.a82be575.png",
     "static/media/influxdata-logo--symbol--white.svg": "/static/media/influxdata-logo--symbol--white.1d3b7e3b.svg",
     "static/media/picschedulerfeature.png": "/static/media/picschedulerfeature.e9bdfe3c.png"
-  }
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7f64f3de.js",
+    "static/js/2.dcf7447c.chunk.js",
+    "static/css/main.6e018027.chunk.css",
+    "static/js/main.7b4c44d3.chunk.js"
+  ]
 }
