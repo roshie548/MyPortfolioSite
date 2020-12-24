@@ -7,6 +7,10 @@
     position: relative;
     margin: 10px 0;
     width: 50%;
+
+    @media screen and (max-width: 1000px) {
+        margin: 0
+    }
 }
 
 .timeline-item:nth-child(odd) {
@@ -30,6 +34,10 @@
     max-width: 70%;
     text-align: right;
     color: #27233A;
+
+    @media screen and (max-width: 1000px) {
+        max-width: 95%;
+    }
 }
 
 .timeline-item-content::after {
@@ -110,4 +118,15 @@
 .timeline-item:nth-child(odd) .timeline-item-content .circle {
     right: auto;
     left: -40px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .timeline-item-content .tag {
+        width: calc(100% - 10px);
+        text-align: center;
+    }
+
+    .timeline-item-content time {
+        margin-top: 20px;
+    }
 }

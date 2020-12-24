@@ -1,4 +1,5 @@
 import React from 'react'
+import {useMediaQuery} from "react-responsive";
 import '../css/AboutBlock.scss'
 import SquareImage from "./SquareImage";
 import {Element} from "react-scroll/modules";
@@ -6,23 +7,28 @@ import ScrollAnimation from "react-animate-on-scroll";
 
 const offset = 60;
 
-const AboutBlock = () =>
-    <Element name="aboutblock">
-    <div className="about-block">
-        <div className="column left">
-            {squarePictures}
-        </div>
-        <div className="column right">
-                <ScrollAnimation animateIn="fade-in" animateOnce={true} offset={offset}>
-                    <div className="big">
-                        <i className="fas fa-laptop-code"/> I like building cool things
-                    </div>
-                </ScrollAnimation>
-                <ScrollAnimation animateIn="fade-in" animateOnce={true} offset={offset}>
-                    <p>
-                        I'm a software engineer and mobile developer
-                    </p>
-                </ScrollAnimation>
+const AboutBlock = () => {
+    const isMobile = useMediaQuery({ query: '(max-width: 1000px)' });
+
+    return (
+        <Element name="aboutblock">
+            <div className="about-block">
+                {!isMobile &&
+                <div className="column left">
+                    {squarePictures}
+                </div>
+                }
+                <div className="column right">
+                    <ScrollAnimation animateIn="fade-in" animateOnce={true} offset={offset}>
+                        <div className="big">
+                            <i className="fas fa-laptop-code"/> I like building cool things
+                        </div>
+                    </ScrollAnimation>
+                    <ScrollAnimation animateIn="fade-in" animateOnce={true} offset={offset}>
+                        <p>
+                            I'm a software engineer and mobile developer
+                        </p>
+                    </ScrollAnimation>
                     <p>
                         <ScrollAnimation animateIn="fade-in" animateOnce={true} offset={offset}>
                             My programming skills include:
@@ -54,9 +60,11 @@ const AboutBlock = () =>
                             </ScrollAnimation>
                         </li>
                     </p>
-        </div>
-    </div>
-    </Element>;
+                </div>
+            </div>
+        </Element>
+    );
+}
 
 const pictures = [
     [

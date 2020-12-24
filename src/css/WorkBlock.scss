@@ -1,0 +1,26 @@
+@import "./../App.scss";
+
+//.panel {
+//  background-color: #f9faff;
+//}
+
+.panel h1 {
+  color: $color-text;
+  font-family: 'Raleway', Sans-Serif, serif;
+  font-size: 44px;
+  margin: 0;
+  padding: 0.67em;
+
+  @media screen and (max-width: 1000px) {
+    font-size: 40px;
+  }
+}
+
+.work {
+  background-color: #f9faff;
+  padding-bottom: 5%;
+}
+
+.projects {
+  background-color: white;
+}

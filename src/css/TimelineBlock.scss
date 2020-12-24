@@ -39,6 +39,10 @@
     font-weight: bold;
     line-height: 0.0;
     text-align: center;
+
+    @media screen and (max-width: 1000px) {
+        font-size: 40px;
+    }
 }
 
 .timeline-header h2 {
@@ -47,4 +51,8 @@
     font-weight: bold;
     padding-top: 7px;
     text-align: center;
+
+    @media screen and (max-width: 1000px) {
+        font-size: 15px;
+    }
 }
