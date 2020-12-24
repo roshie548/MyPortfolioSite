@@ -1,11 +1,9 @@
 import React from 'react';
-import { useMediaQuery } from 'react-responsive'
 import './css/style.scss'
 import Nav from './components/Nav.jsx'
 import MainBlock from "./components/MainBlock";
 import AboutBlock from "./components/AboutBlock";
 import TimelineBlock from "./components/TimelineBlock";
-import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 import WorkBlock from "./components/WorkBlock";
 
 function App() {

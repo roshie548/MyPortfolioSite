@@ -2,23 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="682b5a8a-9e5f-4f9f-a922-0026f3f3f16b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/images/AnonymHome.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Constellation.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AboutBlock.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutBlock.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FeaturedBlock.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WorkBlock.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FeaturedItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FeaturedItem.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainBlock.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainBlock.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/AboutBlock.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/AboutBlock.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/Card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/Card.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/FeaturedBlock.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/WorkBlock.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/FeaturedItem.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/FeaturedItem.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/MainBlock.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/MainBlock.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Card.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/TimelineBlock.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/TimelineBlock.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/TimelineItem.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/TimelineItem.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -363,7 +350,7 @@
       <workItem from="1608616983762" duration="3824000" />
       <workItem from="1608622325972" duration="2438000" />
       <workItem from="1608767693328" duration="3518000" />
-      <workItem from="1608772631049" duration="1634000" />
+      <workItem from="1608772631049" duration="2954000" />
     </task>
     <servers />
   </component>
