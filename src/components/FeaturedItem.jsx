@@ -19,32 +19,35 @@ class FeaturedItem extends React.Component {
                             }
                         </div>
                     </div>
+                </ScrollAnimation>
 
                 {this.props.isProject ? (
                     <div className="position">
-                        <div className={"project-name " + side}>
-                            {this.props.name}
-                        </div>
-                        <Card
-                            technologies={this.props.technologies}
-                            description={this.props.description}
-                            side={side}
-                        />
-                        <div className={side}>
-                            <div className={"tech-stack"}>
-                                {this.props.technologies.map((text) => <div className={"technology"}>{text}</div>)}
+                        <ScrollAnimation animateIn="fade-in" animateOnce={true} offset={100}>
+                            <div className={"project-name " + side}>
+                                {this.props.name}
                             </div>
-                            <div className={"project-links"}>
-                                <a href={this.props.ghLink} target={"_blank"}>
-                                    <i className="fab fa-github"/>
-                                </a>
-                                <a href={this.props.projectLink}target={"_blank"}>
-                                    <i className="fas fa-external-link-alt"/>
-                                </a>
+                            <Card
+                                technologies={this.props.technologies}
+                                description={this.props.description}
+                                side={side}
+                            />
+                            <div className={side}>
+                                <div className={"tech-stack"}>
+                                    {this.props.technologies.map((text) => <div className={"technology"}>{text}</div>)}
+                                </div>
+                                <div className={"project-links"}>
+                                    <a href={this.props.ghLink} target={"_blank"}>
+                                        <i className="fab fa-github"/>
+                                    </a>
+                                    <a href={this.props.projectLink}target={"_blank"}>
+                                        <i className="fas fa-external-link-alt"/>
+                                    </a>
+                                </div>
                             </div>
-                        </div>
+                        </ScrollAnimation>
                     </div>
-                ) : (
+                    ) : (
                     <div className="position expandable">
                         <Card
                             name={this.props.name}
@@ -53,7 +56,6 @@ class FeaturedItem extends React.Component {
                         />
                     </div>)
                 }
-                </ScrollAnimation>
             </div>
         );
     }
