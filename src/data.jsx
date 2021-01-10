@@ -59,8 +59,8 @@ export const projects = [
         name: "Constellation",
         technologies: ["React", "Firebase", "Chrome API"],
         description:
-            "A rewards-based productivity app for students. Keep track of how many minutes you've studied," +
-            "unlock new constellations, and stay on task with by blocking your online distractions.",
+            "A rewards-based productivity app for students. Keep track of how many minutes you've studied, " +
+            "unlock new constellations, and stay on task by blocking your online distractions.",
         img: Constellation,
         ghLink: "https://github.com/roshie548/constellation.io",
         projectLink: "https://chrome.google.com/webstore/detail/constellationio/ibidmkkkcmllngiogmnccgclkfehbkfp"
