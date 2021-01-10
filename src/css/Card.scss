@@ -16,9 +16,12 @@
     -webkit-transition: height .25s ease-in-out;
 }
 
+
+
 .description h2 {
     color: black;
     font-family: 'Raleway', Sans-Serif, serif;
+    font-weight: 500;
     font-size: 30px;
     margin: 0;
 
@@ -77,4 +80,12 @@
     position: absolute;
     left: 0px;
     color: $color-text;
+}
+
+.right {
+    text-align: right;
+}
+
+.left {
+    text-align: left;
 }

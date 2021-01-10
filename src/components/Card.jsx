@@ -1,7 +1,7 @@
 import React from 'react';
 import ScrollAnimation from "react-animate-on-scroll";
 import {useMediaQuery} from "react-responsive";
-import '../css/Card.scss'
+import '../css/Card.scss';
 
 const Card = (props) => {
 
@@ -11,9 +11,9 @@ const Card = (props) => {
     return (
         <ScrollAnimation animateIn={animation + " description round"} animateOnce={true} offset={50} delay={isMobile ? 100 : 0}>
             <div className={"container"}>
-                <h2>{props.name}</h2>
-                <h3>{props.role}</h3>
-                <h4>{props.children}</h4>
+                {props.name && <h2 className={props.side}>{props.name}</h2>}
+                {props.role && <h3>{props.role}</h3>}
+                <h4 className={props.side}>{props.description}</h4>
             </div>
         </ScrollAnimation>
     );

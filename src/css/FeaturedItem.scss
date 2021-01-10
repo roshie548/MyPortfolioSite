@@ -14,12 +14,10 @@
 
 .position {
   top: 50%;
-  width: 450px;
   z-index: 4;
 
   @media screen and (min-width: 1000px) {
     position: absolute;
-    height: 135px;
     max-width: 50%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
@@ -28,11 +26,21 @@
   }
 
   @media screen and (max-width: 1000px) {
-    width: 100%;
     -webkit-transform: translateY(-10%);
     -ms-transform: translateY(-10%);
     transform: translateY(-10%);
     transition: all .25s ease-in-out;
+  }
+}
+
+.expandable {
+  width: 450px;
+
+  @media screen and (min-width: 1000px) {
+    height: 135px;
+  }
+  @media screen and (max-width: 1000px) {
+    width: 100%;
   }
 }
 
@@ -102,6 +110,57 @@
   border-radius: 16px;
 }
 
+.technology {
+  display: inline-block;
+  font-family: "Fira Code", serif;
+  font-size: 15px;
+  opacity: 0.8;
+}
+
+.left .technology {
+  margin-right: 15px;
+}
+
+.right .technology {
+  margin-left: 15px;
+}
+
+.tech-stack {
+  margin: 10px 0;
+}
+
+.project-links a {
+  color: black;
+}
+
+.project-links i {
+  opacity: .7;
+  transition: color .2s, opacity .2s;
+}
+
+.left .project-links i {
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+.right .project-links i {
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.project-links i:hover {
+  color: $color-text;
+  opacity: 1;
+}
+
+.project-name {
+  color: black;
+  font-family: 'Raleway', Sans-Serif, serif;
+  font-weight: 600;
+  font-size: 30px;
+  margin: 10px 0;
+}
+
 @media screen and (min-width: 1000px) {
   .overlaid:nth-child(even) .position {
     right: 0;
@@ -128,7 +187,7 @@
     animation-fill-mode: forwards;
   }
 
-  .position:hover {
+  .expandable:hover {
     height: 95%;
     width: 569px;
     max-width: 80%;
