@@ -5,6 +5,7 @@ import AnonymHome from "./images/AnonymHome.png";
 import InfluxLogo from "./images/influxdata-logo--symbol--white.svg";
 import PicScheduler from "./images/picschedulerfeature.png";
 import Constellation from "./images/Constellation.png";
+import AdvFreeze from "./images/AdvFreeze.jpg"
 
 export const workExperiences = [
     {
@@ -46,8 +47,17 @@ export const workExperiences = [
 
 export const projects = [
     {
+      name:"AdvFreeze",
+      technologies: ["Python", "PyTorch", "Google Compute Engine"],
+      description: "A novel adversarial training process which greatly increases robustness in image classifiers " +
+                  "without sacrificing accuracy on clean images.",
+      img: AdvFreeze,
+      ghLink: "https://github.com/roshie548/AdvFreeze",
+      projectLink: "https://github.com/roshie548/AdvFreeze/blob/main/report.pdf"
+    },
+    {
         name: "Anonym",
-        technologies:["React", "Blockstack API", "Heroku"],
+        technologies: ["React", "Blockstack API", "Heroku"],
         description:
             "An anonymous, decentralized blogging platform powered by blockchain with a content moderation scheme to " +
             "weed out hateful speech.",
