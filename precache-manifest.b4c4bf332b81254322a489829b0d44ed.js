@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e838de193e33bfcd690edc25d2175092",
+    "revision": "0244c2c53b91bf03e68f42fea88315df",
     "url": "/index.html"
   },
   {
-    "revision": "a6be00aaf077917627f4",
+    "revision": "7647a40c7629d37cd605",
     "url": "/static/css/main.37a66f24.chunk.css"
   },
   {
-    "revision": "eceb24fec99b7c57553c",
-    "url": "/static/js/2.04ebca03.chunk.js"
+    "revision": "260441048e7dc3560896",
+    "url": "/static/js/2.d84fd002.chunk.js"
   },
   {
     "revision": "fb7dc011db185163cb7b04bc7aec3968",
-    "url": "/static/js/2.04ebca03.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.d84fd002.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a6be00aaf077917627f4",
-    "url": "/static/js/main.ca4ce95d.chunk.js"
+    "revision": "7647a40c7629d37cd605",
+    "url": "/static/js/main.4c2e35c4.chunk.js"
   },
   {
     "revision": "795bfc8bc299a5f94e9b",
     "url": "/static/js/runtime-main.7f64f3de.js"
+  },
+  {
+    "revision": "5529447768103e561341d6eeaaf1b0d1",
+    "url": "/static/media/AdvFreeze.55294477.jpg"
   },
   {
     "revision": "f7a9606db1e025af2fadd589c3c11eb1",
